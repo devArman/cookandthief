@@ -1,3 +1,8 @@
+@media screen and (max-width: 1650px) {
+    .home-top-banner{
+        min-height: 700px;
+    }
+}
 @media screen and (max-width: 850px) {
     .header-search-column{
         order: 3;
