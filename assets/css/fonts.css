@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight/NexaLight.eot');
+    src: url('../fonts/NexaLight/NexaLight.eot') format('embedded-opentype'),
+    url('../fonts/NexaLight/NexaLight.woff2') format('woff2'),
+    url('../fonts/NexaLight/NexaLight.woff') format('woff'),
+    url('../fonts/NexaLight/NexaLight.ttf') format('truetype'),
+    url('../fonts/NexaLight/NexaLight.svg#NexaLight') format('svg');
+}
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold/NexaBold.eot');
+    src: url('../fonts/NexaBold/NexaBold.eot') format('embedded-opentype'),
+    url('../fonts/NexaBold/NexaBold.woff2') format('woff2'),
+    url('../fonts/NexaBold/NexaBold.woff') format('woff'),
+    url('../fonts/NexaBold/NexaBold.ttf') format('truetype'),
+    url('../fonts/NexaBold/NexaBold.svg#NexaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Butler_Regular_Stencil';
+    src: url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.eot');
+    src: url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.eot') format('embedded-opentype'),
+    url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.woff2') format('woff2'),
+    url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.woff') format('woff'),
+    url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.ttf') format('truetype'),
+    url('../fonts/Butler_Regular_Stencil/Butler_Regular_Stencil.svg#Butler_Regular_Stencil') format('svg');
+}

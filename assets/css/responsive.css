@@ -1,0 +1,78 @@
+@media screen and (max-width: 850px) {
+    .header-search-column{
+        order: 3;
+        width: 100%;
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+    .header-search input{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .bg-img-block {
+        padding-top: 50%;
+        background-size: contain;
+    }
+
+    .justify-content-smx-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    footer ul {
+        margin-top: 15px;
+    }
+
+    .footer-menu .row div:first-child li {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+
+    .footer-menu .row div:last-child li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    footer .footer-copyright p {
+        text-align: center;
+    }
+    .banner-info-box h2 {
+        font-size: 25px;
+    }
+    .banner-info-box p {
+        font-size: 14px;
+    }
+    .home-top-banner .banner-info-box{
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 567px) {
+    .find-address-box{
+        flex-direction: column;
+    }
+    .fields-box input, .fields-box select{
+        margin: 5px 0;
+    }
+    .find-address-box .find-btn{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .banner-info-box .fields-box {
+        padding-right: 0;
+    }
+    .home-top-banner .banner-info-box{
+        margin-top: 100px;
+    }
+    header .site-logo{
+        width: 60px;
+    }
+    .header-nav .login-reg-link a {
+        margin: 0 5px;
+    }
+}
+
