@@ -50,6 +50,9 @@
     .home-top-banner .banner-info-box{
         padding: 20px 15px;
     }
+    .social-icons a{
+        margin: 0 7px;
+    }
 }
 @media screen and (max-width: 567px) {
     .find-address-box{
@@ -74,6 +77,9 @@
     .header-nav .login-reg-link a {
         margin: 0 5px;
         letter-spacing: 1px;
+    }
+    header.page-header{
+        padding: 10px 0;
     }
 }
 
