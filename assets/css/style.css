@@ -101,6 +101,7 @@ button,button:hover,a, a:hover{
     font-family: 'NexaBold';
     letter-spacing: 0.7px;
     font-size: 14px;
+    background-color: #fff;
 }
 .fields-box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba(0,0,0,0.38);
