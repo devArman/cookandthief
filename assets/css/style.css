@@ -332,7 +332,7 @@ footer .footer-copyright p{
 }
 .footer-menu .row div:last-child li:after{
     content: " ";
-    height: 10px;
+    height: 8px;
     width: 1px;
     background-color: #2c3448;
     position: absolute;
