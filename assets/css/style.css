@@ -387,6 +387,9 @@ footer .footer-copyright p{
     line-height: 28px;
     color: #ffffff;
     text-align: justify;
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .quot-text {
     padding-top: 35px;
@@ -397,6 +400,8 @@ footer .footer-copyright p{
     padding-left: 42px;
     margin-bottom: 4px;
     font-style: italic;
+    font-family: geneo-std, sans-serif;
+    font-weight: 400;
 }
 .author-text {
     font-size: 14px;
