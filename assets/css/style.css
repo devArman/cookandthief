@@ -121,9 +121,6 @@ button,button:hover,a, a:hover{
     appearance:         none;
     cursor: pointer;
 }
-.find-address-box{
-    padding: 0 15px;
-}
 .find-address-box .find-location{
     position: relative;
 }
@@ -157,7 +154,7 @@ button,button:hover,a, a:hover{
     transform: translateY(-50%);
     font-size: 20px;
 }
-.find-address-box .choose-date:after{
+.find-address-box .choose-date:after, .additional-date:after{
     content: "\f0d7";
     position: absolute;
     font-family: "Font Awesome 5 Free";
@@ -173,7 +170,13 @@ button,button:hover,a, a:hover{
     font-size: 16px;
     pointer-events: none;
 }
-.find-address-box .find-btn{
+ .additional-date{
+    position: relative;
+}
+ .additional-date select{
+    padding-left: 15px;
+}
+.find-address-box-btn .find-btn{
     background-color: #d6dce3;
     font-size: 14px;
     letter-spacing: 2.52px;
@@ -182,8 +185,11 @@ button,button:hover,a, a:hover{
     font-family: 'NexaLight';
     border: none;
     padding: 10px 17px;
+    position: absolute;
+    top: 0;
+    right: 15px;
 }
-.find-address-box .find-btn:hover,.header-search button:hover{
+.find-address-box-btn .find-btn:hover,.header-search button:hover{
     background-color: #dc7867;
     color: #fff;
 }
@@ -434,6 +440,9 @@ footer .footer-copyright p{
 .mb16 {
     margin-bottom: 16px;
 }
+.hidden-selects,.find-address-box{
+    padding: 0 91px 10px 15px;
+}
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -443,6 +452,9 @@ footer .footer-copyright p{
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+}
+.find-container{
+    position: relative;
 }
 @-webkit-keyframes fadeInUp {
     from {

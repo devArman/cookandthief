@@ -52,27 +52,45 @@
             </h2>
             <p>Where + when would you like your food?</p>
             <form action="">
-                <div class="d-flex justify-content-between find-address-box no-gutters">
-                    <div class="col-sm fields-box find-location">
-                        <input type="text" placeholder="eg W1T 2SF">
+                <div class="find-container">
+                    <div class="d-flex justify-content-between find-address-box no-gutters">
+                        <div class="col-sm fields-box find-location">
+                            <input type="text" placeholder="eg W1T 2SF">
+                        </div>
+                        <div class="col-sm fields-box choose-date">
+                            <select name="delivery_day" class="j_delivery_day" id="delivering_to_delivery_day">
+                                <option value="ASAP">ASAP</option>
+                                <option value="1583366400">Today</option>
+                                <option value="1583452800">Tomorrow</option>
+                                <option value="1583539200">Sat 7th Mar</option>
+                                <option value="1583625600">Sun 8th Mar</option>
+                                <option value="1583712000">Mon 9th Mar</option>
+                                <option value="1583798400">Tue 10th Mar</option>
+                                <option value="1583884800">Wed 11th Mar</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-sm fields-box choose-date">
-                        <select name="delivery_day" class="j_delivery_day" id="delivering_to_delivery_day">
-                            <option value="ASAP">ASAP</option>
-                            <option value="1583366400">Today</option>
-                            <option value="1583452800">Tomorrow</option>
-                            <option value="1583539200">Sat 7th Mar</option>
-                            <option value="1583625600">Sun 8th Mar</option>
-                            <option value="1583712000">Mon 9th Mar</option>
-                            <option value="1583798400">Tue 10th Mar</option>
-                            <option value="1583884800">Wed 11th Mar</option>
-                        </select>
+                    <div class="row no-gutters hidden-selects" style="display: none">
+                        <div class="col-sm-6 fields-box additional-date">
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6 fields-box additional-date">
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
                     </div>
-                    <div>
+                    <div class="find-address-box-btn">
                         <button type="button" class="find-btn">FIND</button>
                     </div>
-
                 </div>
+
             </form>
 
         </div>

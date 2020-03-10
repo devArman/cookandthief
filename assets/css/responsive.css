@@ -60,7 +60,18 @@
     }
 }
 @media screen and (max-width: 567px) {
-    .find-address-box{
+    .find-address-box-btn .find-btn{
+        position: relative;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+    .hidden-selects, .find-address-box{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .find-address-box,.hidden-selects{
         flex-direction: column;
     }
     .fields-box input, .fields-box select{
