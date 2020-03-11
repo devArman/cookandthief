@@ -388,7 +388,7 @@ footer .footer-copyright p{
     margin-bottom: 15px;
 }
 .text-desc {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.45px;
     line-height: 28px;
     color: #ffffff;
@@ -396,6 +396,9 @@ footer .footer-copyright p{
     font-family: geneo-std, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.text-desc b{
+    font-size: 18px;
 }
 .quot-text {
     padding-top: 35px;
