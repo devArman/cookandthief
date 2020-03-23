@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cook and Thief</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://use.typekit.net/ins2whc.css" />
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="wrapper">
+        <div class="row justify-content-between align-items-center no-gutters">
+            <div class="">
+                <ul class="d-flex align-items-center list-unstyled header-menu margin0">
+                    <li><a href="/"><img src="../assets/images/top.svg" alt="Cook and Thief" class="site-logo"></a></li>
+                    <li class="desktop-menu "><a href="javascript:void (0)">HOME</a></li>
+                    <li class="desktop-menu active"><a href="javascript:void (0)">FEED ME</a></li>
+                    <li class="desktop-menu"><a href="javascript:void (0)">ABOUT C+T</a></li>
+                    <li class="desktop-menu"><a href="javascript:void (0)">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="header-right-part">
+                <ul class="nav header-nav align-items-center justify-content-end">
+                    <li>
+                        <form action="">
+                            <div class="searchBox">
+                                <input class="searchInput" type="search" name="" placeholder="Restaurant, type of cuisine…">
+                                <button type="button" class="searchButton">
+                                    <img src="../assets/images/search.svg" alt="search"  class="search-item">
+                                    <img src="../assets/images/close.svg" alt="close"  class="close-item">
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="d-flex align-items-center login-reg-link">
+                        <img src="../assets/images/account.svg" alt="account">
+                    </li>
+                    <li class="menu-toggle">
+                        <nav id="nav" class="nav">
+                            <!-- ACTUAL NAVIGATION MENU -->
+                            <ul class="nav__menu list-unstyled" id="menu" >
+                                <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">FEED ME</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">ABOUT C+T</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">CONTACT US</a></li>
+                            </ul>
+
+                            <!-- MENU TOGGLE BUTTON -->
+                            <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+                                <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                                    <title>Toggle Menu</title>
+                                    <g>
+                                        <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+                                        <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                                        <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                                        <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+                                        <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <!-- ANIMATED BACKGROUND ELEMENT -->
+                            <div class="splash"></div>
+
+                        </nav>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="home-top-banner d-flex align-items-center justify-content-center">
+    <div class="wrapper">
+        <div class="banner-info-box animated fadeInUp">
+            <p>Where + when would you like your food?</p>
+            <form action="">
+                <div class="find-container">
+                    <div class="d-flex justify-content-between find-address-box no-gutters">
+                        <div class="col-sm fields-box find-location">
+                            <input type="text" placeholder="eg W1T 2SF">
+                        </div>
+                        <div class="col-sm fields-box choose-date">
+                            <select name="delivery_day" class="j_delivery_day" id="delivering_to_delivery_day">
+                                <option value="ASAP">ASAP</option>
+                                <option value="1583366400">Today</option>
+                                <option value="1583452800">Tomorrow</option>
+                                <option value="1583539200">Sat 7th Mar</option>
+                                <option value="1583625600">Sun 8th Mar</option>
+                                <option value="1583712000">Mon 9th Mar</option>
+                                <option value="1583798400">Tue 10th Mar</option>
+                                <option value="1583884800">Wed 11th Mar</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row no-gutters hidden-selects" style="display: none">
+                        <div class="col-sm-6 fields-box additional-date">
+                            <select name="" >
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6 fields-box additional-date">
+                            <select name="" >
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="find-address-box-btn">
+                        <button type="button" class="find-btn">FIND</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="wrapper">
+        <div class="row align-items-end">
+            <div class="col-md-6 justify-content-sm-center footer-logo">
+                <img src="../assets/images/footer.svg"  alt="Cook and Thief">
+            </div>
+            <div class="col-md-6">
+                <ul class="nav justify-content-md-end justify-content-smx-center social-icons">
+                    <li><a href="javascript:void (0)"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="javascript:void (0)"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript:void (0)"><i class="fab fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper footer-menu">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav align-items-center justify-content-smx-center">
+                    <li>
+                        <a class="active" href="javascript:void (0)">HOME</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">FEED ME</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">ABOUT C+T</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="nav justify-content-md-end align-items-center justify-content-smx-center ">
+                    <li>
+                        <a href="javascript:void (0)">FAQs </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">PRIVACY</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">TERMS</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void (0)">COOKIES</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="wrapper">
+            <p> ©2020 COOK+THIEF</p>
+        </div>
+
+    </div>
+</footer>
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+</body>
+</html>
