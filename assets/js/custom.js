@@ -25,6 +25,7 @@ $('.searchButton .close-item').on('click',function () {
     $('.searchButton .search-item').show();
 });
 $('.nav__toggle').on('click',function () {
+    $('body').toggleClass('hidden');
     $(window).scrollTop(0);
 
 });
