@@ -11,33 +11,68 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+
 <header class="page-header">
         <div class="wrapper">
             <div class="row justify-content-between align-items-center no-gutters">
-                <div class="col-sm col-4">
-                    <a href="/"><img src="assets/images/top.svg" alt="Cook and Thief" class="site-logo"></a>
+                <div class="">
+                    <ul class="d-flex align-items-center list-unstyled header-menu margin0">
+                        <li><a href="/"><img src="assets/images/top.svg" alt="Cook and Thief" class="site-logo"></a></li>
+                        <li class="desktop-menu active"><a href="javascript:void (0)">HOME</a></li>
+                        <li class="desktop-menu"><a href="javascript:void (0)">FEED ME</a></li>
+                        <li class="desktop-menu"><a href="javascript:void (0)">ABOUT C+T</a></li>
+                        <li class="desktop-menu"><a href="javascript:void (0)">CONTACT US</a></li>
+                    </ul>
                 </div>
-                <div class="col-sm header-search-column">
-                    <form action="">
-                        <div class="header-search">
-                            <input type="search" placeholder="Restaurant, type of cuisine…">
-                            <button type="button"><i class="fas fa-search"></i></button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-sm col-8">
+                <div class="header-right-part">
                     <ul class="nav header-nav align-items-center justify-content-end">
-                        <li class="d-flex align-items-center login-reg-link">
-                                <img src="assets/images/account.svg" alt="account">
-                                <a href="javascript:void (0)">LOG IN</a>
-                                <span>/</span>
-                                <a href="javascript:void (0)">REGISTER</a>
-                        </li>
                         <li>
-                            <a href="javascript:void (0)" class="menu-toggle"><img src="assets/images/menu.svg" alt="menu"></a>
+                            <form action="">
+                                <div class="searchBox">
+                                    <input class="searchInput" type="search" name="" placeholder="Restaurant, type of cuisine…">
+                                    <button type="button" class="searchButton">
+                                        <img src="assets/images/search.svg" alt="search"  class="search-item">
+                                        <img src="assets/images/close.svg" alt="close"  class="close-item">
+                                    </button>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="d-flex align-items-center login-reg-link">
+                            <img src="assets/images/account.svg" alt="account">
+                        </li>
+                        <li class="menu-toggle">
+                            <nav id="nav" class="nav">
+                                <!-- ACTUAL NAVIGATION MENU -->
+                                <ul class="nav__menu list-unstyled" id="menu" >
+                                    <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">FEED ME</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">ABOUT C+T</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">CONTACT US</a></li>
+                                </ul>
+
+                                <!-- MENU TOGGLE BUTTON -->
+                                <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+                                    <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                                        <title>Toggle Menu</title>
+                                        <g>
+                                            <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+                                            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                                            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                                            <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+                                            <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+                                        </g>
+                                    </svg>
+                                </a>
+
+                                <!-- ANIMATED BACKGROUND ELEMENT -->
+                                <div class="splash"></div>
+
+                            </nav>
                         </li>
                     </ul>
                 </div>
@@ -72,14 +107,14 @@
                     </div>
                     <div class="row no-gutters hidden-selects" style="display: none">
                         <div class="col-sm-6 fields-box additional-date">
-                            <select name="" id="">
+                            <select name="" >
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
                             </select>
                         </div>
                         <div class="col-sm-6 fields-box additional-date">
-                            <select name="" id="">
+                            <select name="" >
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -98,10 +133,10 @@
     <a  href="#home-about" class="scroll-down" ></a>
 </section>
 <section id="home-about">
-    <div class="image-block">
+    <div class="page-center-block">
         <div class="container wrapper">
             <div class="row mb24 justify-content-center">
-                <div class="col-md-4 col-sm-12 mb16">
+                <div class="col-md-4 col-sm-4 mb16">
                     <a href="javascript:void (0)">
                         <div class="shef-block d-flex justify-content-center">
                             <div class="img-inner-block" style="background-image: url('assets/images/shef1.png')"></div>
@@ -109,7 +144,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-12 mb16">
+                <div class="col-md-4 col-sm-4 mb16">
                     <a href="javascript:void (0)">
                         <div class="shef-block d-flex justify-content-center">
                             <div class="img-inner-block" style="background-image: url('assets/images/shef2.png')"></div>
@@ -117,7 +152,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-12 mb16">
+                <div class="col-md-4 col-sm-4 mb16">
                     <a href="javascript:void (0)">
                         <div class="shef-block d-flex justify-content-center">
                             <div class="img-inner-block" style="background-image: url('assets/images/shef3.png')"></div>
@@ -128,34 +163,36 @@
             </div>
         </div>
         <div class="container wrapper mb15">
-            <div class="row">
-                <div class="col-md-8 col-sm-12 mb16">
-                    <h2 class="title-text mb24">Let us take your tastebuds for a joyride</h2>
-                    <p class="text-desc"><b>At COOK+THIEF</b> we lorem ipsum dolor sit amet adipiscing elit. Donec sodales est id elementum sollicitudin. Praesent semper lacus a maximus fermentum. Vivamus in neque ut eros fringilla tincidunt nec et odio. Praesent semper maximus risus sed imperdiet. Aliquam eget metus consectetur, elementum mi sed, efficitur turpis. Curabitur ac consectetur.</p>
-                </div>
-                <div class="col-md-4 col-sm-12 mb16">
-                    <p class="text-right quot-text">“Quisque sed diam non purus auctor porttitor ligula ultricie pharetra.”</p>
-                    <p class="text-right author-text">Ollie Dabbous, Hide</p>
+            <div class="home-center-text-box">
+                <div class="row justify-content-end">
+                    <div class="col-md-8 col-sm-12 mb16">
+                        <h2 class="title-text mb24">Let us take your tastebuds for a joyride</h2>
+                        <p class="text-desc"><b>At COOK+THIEF</b> we lorem ipsum dolor sit amet adipiscing elit. Donec sodales est id elementum sollicitudin. Praesent semper lacus a maximus fermentum. Vivamus in neque ut eros fringilla tincidunt nec et odio. Praesent semper maximus risus sed imperdiet. Aliquam eget metus consectetur, elementum mi sed, efficitur turpis. Curabitur ac consectetur.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-8 mb16">
+                        <p class="text-right quot-text">“Quisque sed diam non purus auctor porttitor ligula ultricie pharetra.”</p>
+                        <p class="text-right author-text">Ollie Dabbous, Hide</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="container wrapper">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 mb12">
+            <div class="home-bottom-dishes">
+                <div class="home-dishes-item">
                     <a href="javascript:void (0)">
                         <div class="bg-img-block mb16" style="background-image: url('assets/images/02@3x.png')"></div>
                         <p class="dish-name text-center">NAME OF DISH</p>
                         <p class="dish-desc text-center text-uppercase">Shaun Rankin • Ormer Mayfair</p>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-12 mb24">
+                <div class="home-dishes-item">
                     <a href="javascript:void (0)">
                         <div class="bg-img-block mb16" style="background-image: url('assets/images/02@3x.png')"></div>
                         <p class="dish-name text-center">NAME OF DISH</p>
                         <p class="dish-desc text-center text-uppercase">José Pizarro • Pizarro</p>
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="home-dishes-item">
                     <a href="javascript:void (0)">
                         <div class="bg-img-block mb16" style="background-image: url('assets/images/02@3x.png')"></div>
                         <p class="dish-name text-center">NAME OF DISH</p>
@@ -163,10 +200,10 @@
                     </a>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
+
 <footer>
     <div class="wrapper">
         <div class="row align-items-end">
@@ -227,6 +264,7 @@
     </div>
 </footer>
 <script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 </body>
