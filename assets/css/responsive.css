@@ -6,8 +6,9 @@
 @media screen and (max-width: 991px) {
     .header-right-part .searchInput{
         position: absolute;
-        bottom: -30px;
+        bottom: -50px;
         right: 0;
+        background: #2c3448;
     }
 }
 @media screen and (max-width: 850px) {
@@ -75,6 +76,9 @@
     }
     .header-right-part{
         padding-right: 45px;
+    }
+    .banner-info-box h2{
+        font-size: 24px;
     }
 }
 @media screen and (max-width: 567px) {

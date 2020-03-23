@@ -24,6 +24,10 @@ $('.searchButton .close-item').on('click',function () {
     $(this).hide();
     $('.searchButton .search-item').show();
 });
+$('.nav__toggle').on('click',function () {
+    $(window).scrollTop(0);
+
+});
 $(document).ready(function(){
     $('.home-bottom-dishes').slick({
         slidesToShow: 3,

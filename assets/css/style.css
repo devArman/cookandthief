@@ -692,6 +692,7 @@ header .header-right-part .nav__link {
     transform: translateY(-100%);
     -webkit-transition: all 0.5s cubic-bezier(0, 0.995, 0.99, 1) 0.31s;
     transition: all 0.5s cubic-bezier(0, 0.995, 0.99, 1) 0.31s;
+    padding-left: 0!important;
 }
 .nav--open .nav__item{
     opacity: 1;
@@ -703,12 +704,36 @@ header .header-right-part .nav__link {
 .nav__menu {
 
     position: absolute;
-    z-index: -1;
+    z-index: -10;
     width: 100%;
     left: 0;
     right: 0;
+    visibility: hidden;
 }
 .nav--open .nav__menu {
     z-index: 5;
+    visibility: visible;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
+/*#nav.nav--open{*/
+/*    overflow: hidden;*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    align-items: center;*/
+/*}*/
+
+.hidden{
+    overflow: hidden;
+}
