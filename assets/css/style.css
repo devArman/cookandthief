@@ -523,8 +523,9 @@ footer .footer-copyright p{
     -moz-transform: translateY(0px);
     transform: translateY(0px);
 }
-.header-menu li.header-logo a:hover:after{
+.header-menu li.header-logo a:hover:after,.header-menu li.header-logo a:after{
     opacity: 0!important;
+    height: 0;
 }
 .header-menu li  {
     padding-right: 20px;
