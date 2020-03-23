@@ -690,8 +690,8 @@ header .header-right-part .nav__link {
     opacity:0;
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
-    -webkit-transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.21s;
-    transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.21s;
+    -webkit-transition: all 0.5s cubic-bezier(0, 0.995, 0.99, 1) 0.31s;
+    transition: all 0.5s cubic-bezier(0, 0.995, 0.99, 1) 0.31s;
     padding-left: 0!important;
 }
 .nav--open .nav__item{
