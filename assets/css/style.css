@@ -741,6 +741,7 @@ header .header-right-part .nav__link {
     bottom: 0;
 }
 /*/////// menu /////////////*/
+
 .hidden{
     overflow: hidden;
 }
@@ -750,4 +751,34 @@ header .header-right-part .nav__link {
 }
 .breadcrumb-item+.breadcrumb-item::before{
     content: ">";
+    color: #fff;
+}
+.page-center-block .breadcrumb li,.page-center-block .breadcrumb a{
+    letter-spacing: 2.16px;
+    font-size: 12px;
+    font-family: 'NexaLight';
+    color: #fff;
+    text-transform: uppercase;
+}
+.delivering-result h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #dc7867;
+    font-family: 'Butler_Regular_Stencil';
+    margin-bottom: 0;
+}
+.delivering-result a{
+    border-radius: 12px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 12px;
+    letter-spacing: 2.16px;
+    color: #fff;
+    font-family: 'NexaLight';
+    text-transform: uppercase;
+    padding: 4px 20px;
+    margin-left: 20px;
+}
+.delivering-result a:hover{
+    background-color: rgba(220,120,103,0.5);
 }
