@@ -84,6 +84,9 @@
     .top-chef-dishes .col-md-4:nth-child(2),.top-chef-dishes .col-md-4:last-child{
     display: none;
     }
+    .page-top-banner {
+        min-height: 600px;
+    }
 }
 @media screen and (max-width: 570px) {
     .nav__toggle{
