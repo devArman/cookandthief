@@ -782,3 +782,63 @@ header .header-right-part .nav__link {
 .delivering-result a:hover{
     background-color: rgba(220,120,103,0.5);
 }
+.restaurants-boxes{
+    border-radius: 2px;
+    box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    background-color: #41485a;
+    height: 100%;
+}
+.restaurant-box-image{
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.restaurant-box-info{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.restaurant-chef-info img{
+    max-width: 64px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.restaurant-chef-info{
+    margin-bottom: 10px;
+}
+.restaurant-chef-info h3{
+    font-size: 16px;
+    letter-spacing: 2.88px;
+    color: #dc7867;
+    font-family: 'NexaBold';
+    margin-bottom: 0;
+}
+.restaurant-chef-info p{
+    letter-spacing: 2.16px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'NexaBold';
+    margin-bottom: 0;
+}
+.restaurant-additional-info h2{
+    letter-spacing: 0.35px;
+    font-size: 14px;
+    color: #fff;
+    font-family: geneo-std, sans-serif;
+    font-weight: bold;
+}
+.restaurant-additional-info p{
+    font-size: 14px;
+    opacity: 0.7;
+    color: #fff;
+    font-family: geneo-std, sans-serif;
+    line-height: 1.29;
+    letter-spacing: 0.35px;
+}
+.restaurant-additional-info h4{
+    letter-spacing: 0.35px;
+    font-size: 14px;
+    color: #fff;
+    font-family: geneo-std, sans-serif;
+    font-weight: bold;
+}
