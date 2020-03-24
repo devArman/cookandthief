@@ -37,6 +37,16 @@ $(document).ready(function(){
             {
                 breakpoint: 667,
                 settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows:false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -83,7 +88,8 @@
       <workItem from="1583832958736" duration="1785000" />
       <workItem from="1583834817085" duration="1523000" />
       <workItem from="1583907819896" duration="642000" />
-      <workItem from="1584954889551" duration="32511000" />
+      <workItem from="1584954889551" duration="32630000" />
+      <workItem from="1585029263261" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="add page">
       <created>1583476070084</created>
@@ -225,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584993088498</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="changes">
+      <created>1584993549811</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1584993549811</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,13 +255,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1584993087332">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1584993548970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584993087332" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584993105601">
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584993548970" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584993560785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584993105601" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584993560785" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585029271579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585029271579" />
   </component>
 </project>
