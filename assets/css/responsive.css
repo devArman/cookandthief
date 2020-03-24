@@ -10,6 +10,9 @@
         right: 0;
         background: #2c3448;
     }
+    .restaurant-chef-info{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 850px) {
     .header-search-column{
@@ -74,6 +77,12 @@
     }
     .banner-info-box h2{
         font-size: 24px;
+    }
+    .delivering-result h2{
+        font-size: 20px;
+    }
+    .top-chef-dishes .col-md-4:nth-child(2),.top-chef-dishes .col-md-4:last-child{
+    display: none;
     }
 }
 @media screen and (max-width: 570px) {
