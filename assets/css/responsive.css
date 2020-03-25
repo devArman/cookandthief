@@ -61,6 +61,9 @@
     .social-icons a{
         margin: 0 7px;
     }
+    .menu-center-section .menu-left-box{
+        padding-right: 20px;
+    }
 }
 @media screen and (max-width: 667px){
     .header-menu li a{
@@ -86,6 +89,15 @@
     }
     .page-top-banner {
         min-height: 600px;
+    }
+    .menu-center-info{
+        flex-wrap: wrap;
+    }
+    .menu-center-info .menu-left-box{
+        order: 2;
+    }
+    .order-box{
+        position: static;
     }
 }
 @media screen and (max-width: 570px) {

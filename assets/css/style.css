@@ -972,8 +972,9 @@ header .header-right-part .nav__link {
     display: inline-block;
     padding: 15px 20px;
     border-bottom: 2px solid transparent;
+    margin-right: 5px;
 }
-.menu-toolbar li.active a{
+.menu-toolbar li a.active,.menu-toolbar li a:hover{
     color: #dc7867;
     border-bottom: 2px solid #dc7867;
     opacity: 1;
