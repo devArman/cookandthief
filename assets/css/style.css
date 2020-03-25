@@ -40,6 +40,7 @@ header .dropdown-toggle:focus{
 }
 .page-top-banner.restaurants-top-banner{
     min-height: 450px;
+    background-image: url("../images/restaurants-bg.jpg");
 }
 .page-top-banner.restaurants-top-banner:after,.page-top-banner.menu-top-banner:after{
     content: " ";
@@ -59,6 +60,7 @@ header .dropdown-toggle:focus{
     max-height: 650px;
     min-height: 650px;
     position: relative;
+    background-image: url("../images/restaurants-bg.jpg");
 }
 .restaurants-top-banner .banner-info-box p{
     margin: 0 0 15px 0;
@@ -892,6 +894,9 @@ header .header-right-part .nav__link {
     font-family: geneo-std, sans-serif;
     font-weight: bold;
 }
+.restaurant-additional-info h4 img{
+    margin-right: 7px;
+}
 .menu-top-details{
     width: 100%;
     background-color: rgba(44,52,72,.8);
@@ -1011,4 +1016,31 @@ header .header-right-part .nav__link {
     vertical-align: middle;
     line-height: 19px;
     text-align: center;
+}
+.order-box  tr td{
+    color: #fff;
+    vertical-align: top;
+    padding: 10px;
+    border-top: none;
+    font-size: 14px;
+}
+.order-box  tr.border-row td{
+    border-bottom: 1px solid rgba(247,249,250,.2);
+}
+.product-qty-item button{
+  font-size: 10px;
+    background-color: rgba(214,220,227,.1);
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.product-qty-item input{
+    padding: 0;
+    height: inherit;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
 }

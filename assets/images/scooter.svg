@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="prefix__a" width="171.8%" height="127.7%" x="-46.6%" y="-13.8%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+            <feOffset dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter2"/>
+            <feOffset dy="8" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMorphology in="SourceAlpha" radius="1.5" result="shadowSpreadOuter3"/>
+            <feOffset dy="5" in="shadowSpreadOuter3" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="#FFF" filter="url(#prefix__a)" transform="translate(-16 -515)">
+        <path d="M32.766 519c-.915 0-1.69.362-1.953.868-.212.053-2.198.55-2.422.632-.645.237-.303 1.125.338.974.53-.125 1.51-.816 1.51-.816.769 1.444 1.726 5.582 1.407 6.184-1.032 1.954-2.168 2.474-4.271 2.474-2.578 0-2.767-.04-1.563-2.474.28-.566 0-1.105-.625-1.105h-5.312c-.654.414-1.875 2.572-1.875 3.579 0 .621.56 1.102 1.458 1.473-.394.448-.625 1.04-.625 1.685 0 1.394 1.12 2.526 2.5 2.526s2.5-1.132 2.5-2.526c0-.29-.068-.556-.156-.816 1.22.118 2.494.184 3.698.184h2.448c.355 0 1-.454 1.77-1.079-.169.898.085 1.684.313 1.684.586 0 .615-.575 1.433-1.263-.222.375-.339.82-.339 1.29 0 1.394 1.12 2.526 2.5 2.526s2.5-1.132 2.5-2.526c0-1.22-.866-2.237-2.005-2.474 1.247-.227 1.979.053 1.979-.316 0-.575-1.471-1.589-3.203-1.473.062-.063.104-.116.104-.158 0-.372-.075-3.369-1.563-5.658-.442 0-1.894-.606-2.265-1.421.368.335 1.009.552 1.719.552 1.054 0 1.067 0 1.067-1.263S33.811 519 32.766 519zM20.5 523.21c-.459 0-.833.379-.833.843 0 .463.374.842.833.842h5c.459 0 .833-.379.833-.842 0-.464-.374-.842-.833-.842h-5zm15 8c.69 0 1.25.566 1.25 1.264 0 .697-.56 1.263-1.25 1.263s-1.25-.566-1.25-1.263c0-.155.03-.313.078-.448l.677.842c.215.277.612.323.886.106.273-.217.319-.619.104-.895l-.677-.842c.058-.01.12-.026.182-.026zm-14.48.053c.102.023.21.033.313.053-.172.27-.348.533-.52.79-.202.289-.13.69.156.894.286.204.683.132.885-.158.192-.283.397-.592.6-.92.077.164.13.354.13.552 0 .697-.56 1.263-1.25 1.263s-1.25-.566-1.25-1.263c0-.59.396-1.073.937-1.21z"/>
+    </g>
+</svg>
