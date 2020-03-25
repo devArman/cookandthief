@@ -10,6 +10,11 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function(){
+    $('.view-details-btn').on('click',function() {
+        $('.hide-box').slideToggle();
+        $("i", this).toggleClass("fa-chevron-down fa-chevron-up");
+        $('span',this).toggle();
+    });
     $('.scroll-down').on('click',function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top - 120
