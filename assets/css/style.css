@@ -6,7 +6,7 @@
 a:hover{
     text-decoration: none;
 }
-a:focus{
+a:focus,button:focus{
     outline: none!important;
 }
 input:focus,button:focus,select:focus{
@@ -18,6 +18,16 @@ button,button:hover,a, a:hover{
     -ms-transition:  0.6s ease;
     -o-transition:  0.6s ease;
     transition:  0.6s ease;
+}
+header .dropdown-toggle::after{
+    border: 0!important;
+    margin: 0;
+}
+header .dropdown-toggle{
+    padding: 6px 0;
+}
+header .dropdown-toggle:focus{
+    box-shadow: none;
 }
 .page-top-banner{
     background-color: #2c3448;
@@ -54,7 +64,7 @@ button,button:hover,a, a:hover{
     margin: 0 0 15px 0;
 }
 .page-top-banner.restaurants-top-banner .banner-info-box{
-    margin-top: 40px;
+    margin-top: 15%;
 }
 .scroll-down{
     width: 48px;
@@ -246,9 +256,6 @@ header.page-header{
     font-size: 12px;
     text-transform: uppercase;
 }
-.header-nav .login-reg-link a{
-    margin: 0 10px;
-}
 .fixed {
     animation: smoothScroll 1s forwards;
     -webkit-animation: smoothScroll 1s forwards;
@@ -258,7 +265,6 @@ header.page-header{
 }
 .header-search{
     position: relative;
-
 }
 .header-search input{
     width: 308px;
@@ -574,6 +580,9 @@ header .wrapper{
 }
 .header-nav li {
     padding-left: 15px;
+}
+.header-nav li.menu-toggle{
+    padding-left: 0;
 }
 .header-right-part .searchBox.searchBoxOpen .searchInput {
     width: 240px;

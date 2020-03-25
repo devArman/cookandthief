@@ -10,11 +10,12 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function(){
-    jQuery('.menu-toolbar li a').click(function(e){
-        var jump = $(this).attr('href');
-        var new_position = $(jump).offset() ;
-        $('html, body').stop().animate({ scrollTop: new_position.top - 130}, 1000);
-        e.preventDefault();
+
+    $('.menu-toolbar li a').on('click',function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 130
+        }, 1000);
+        return false;
     });
 
     $('.menu-toolbar ul').on('click', 'li', function() {

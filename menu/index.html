@@ -43,7 +43,15 @@
                         </form>
                     </li>
                     <li class="d-flex align-items-center login-reg-link">
-                        <img src="../assets/images/account.svg" alt="account">
+                        <div class="btn-group">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../assets/images/account.svg" alt="account">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">LOG IN</button>
+                                <button class="dropdown-item" type="button">REGISTER</button>
+                            </div>
+                        </div>
                     </li>
                     <li class="menu-toggle">
                         <nav id="nav" class="nav">
@@ -280,6 +288,7 @@
 <script src="../assets/js/jquery-3.4.1.min.js"></script>
 <script src="../assets/js/slick.min.js"></script>
 <script src="../assets/js/custom.js"></script>
+<script src="../assets/js/popper.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 </html>

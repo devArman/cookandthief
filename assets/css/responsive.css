@@ -125,10 +125,6 @@
     header .site-logo{
         width: 60px;
     }
-    .header-nav .login-reg-link a {
-        margin: 0 5px;
-        letter-spacing: 1px;
-    }
     header.page-header{
         padding: 10px 0;
     }
