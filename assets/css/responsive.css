@@ -92,16 +92,22 @@
     .nav__toggle{
         top:0;
     }
+    .home-center-text-box .title-text{
+        font-size: 32px;
+    }
+    .home-center-text-box .quot-text{
+        font-size: 22px;
+    }
     .find-address-box-btn .find-btn{
         position: relative;
         left: 0;
         width: 100%;
         bottom: 0;
         right: 0;
+        margin-top: 5px;
     }
     .hidden-selects, .find-address-box{
-        padding-right: 0;
-        padding-left: 0;
+       padding: 0;
     }
     .find-address-box,.hidden-selects{
         flex-direction: column;

@@ -894,6 +894,7 @@ header .header-right-part .nav__link {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 5;
 }
 .menu-top-details img{
     max-width: 64px;
@@ -917,6 +918,87 @@ header .header-right-part .nav__link {
     font-size: 14px;
     font-family: 'NexaLight';
 }
+.view-details-btn.close-details{
+    padding: 8px 11px;
+}
 .hide-box{
     display: none;
+}
+.menu-details-chef-info h3{
+    letter-spacing: 1.8px;
+    font-size: 36px;
+    font-family: 'Butler_Regular_Stencil';
+    color: #dc7867;
+}
+.menu-details-chef-info p{
+    letter-spacing: 2.52px;
+    font-size: 14px;
+    font-family: 'NexaBold';
+}
+.hide-box p{
+    font-size: 15px;
+    line-height: 1.47;
+    letter-spacing: 0.38px;
+    font-family: geneo-std, sans-serif;
+}
+.hide-box li{
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.35px;
+    font-family: geneo-std, sans-serif;
+}
+.hide-box li b{
+    margin-top: 20px;
+    display: inline-block;
+}
+.menu-top-details .menu-toolbar{
+    margin-top: 20px;
+}
+.menu-toolbar li a{
+    letter-spacing: 2.52px;
+    opacity: 0.49;
+    font-size: 14px;
+    font-family: 'NexaBold';
+    color: #d6dce3;
+    display: inline-block;
+    padding: 15px 20px;
+    border-bottom: 2px solid transparent;
+}
+.menu-toolbar li.active a{
+    color: #dc7867;
+    border-bottom: 2px solid #dc7867;
+    opacity: 1;
+}
+.menu-toolbar ul{
+    margin-bottom: 0;
+}
+.menu-center-section{
+    padding: 50px 0;
+}
+.menu-center-section .menu-left-box{
+    padding-right: 50px;
+}
+.order-box {
+    width: 308px;
+    position: sticky;
+    top: 140px;
+    border-radius: 20px;
+    box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    background-color: #41485a;
+    padding: 8px;
+    min-height: 200px;
+}
+.order-box .place-order{
+    display: block;
+    background-color: #d6dce3;
+    color: #2c3448;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    font-family: 'NexaBold';
+    border-radius: 18px;
+    padding: 8px;
+    vertical-align: middle;
+    line-height: 19px;
+    text-align: center;
 }

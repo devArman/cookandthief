@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <workItem from="1583907819896" duration="642000" />
       <workItem from="1584954889551" duration="32630000" />
       <workItem from="1585029263261" duration="19967000" />
-      <workItem from="1585118214742" duration="820000" />
+      <workItem from="1585118214742" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary="add page">
       <created>1583476070084</created>
@@ -300,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585051171397</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="changes">
+      <created>1585119232817</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585119232817</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,19 +322,19 @@
     <MESSAGE value="fixing 3" />
     <MESSAGE value="fixing" />
     <MESSAGE value="new page" />
-    <MESSAGE value="changes" />
     <MESSAGE value="add menu page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add menu page" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585051180185">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585119229360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585051180185" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585051192171">
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585119229360" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585119239890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585051192171" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585119239890" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585118279743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

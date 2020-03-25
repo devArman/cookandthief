@@ -10,11 +10,25 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function(){
+    jQuery('.menu-toolbar li a').click(function(e){
+        var jump = $(this).attr('href');
+        var new_position = $(jump).offset() ;
+        $('html, body').stop().animate({ scrollTop: new_position.top - 130}, 1000);
+        e.preventDefault();
+    });
+
+    $('.menu-toolbar ul').on('click', 'li', function() {
+        $('.menu-toolbar li.active').removeClass('active');
+        $(this).addClass('active');
+    });
+
     $('.view-details-btn').on('click',function() {
         $('.hide-box').slideToggle();
         $("i", this).toggleClass("fa-chevron-down fa-chevron-up");
         $('span',this).toggle();
+        $(this).toggleClass('close-details');
     });
+
     $('.scroll-down').on('click',function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top - 120
