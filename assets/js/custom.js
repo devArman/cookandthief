@@ -29,7 +29,7 @@ $(document).ready(function(){
         $(this).toggleClass('close-details');
     });
 
-    if($(window).width() < 767) {
+    if($(window).width() < 667) {
         $('.scroll-down').on('click',function(){
             $('html, body').animate({
                 scrollTop: $( $.attr(this, 'href') ).offset().top - 73

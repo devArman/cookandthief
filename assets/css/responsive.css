@@ -25,11 +25,20 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .home-center-text-box{
         max-width: 515px;
         margin: 0 auto;
     }
+    .home-center-text-box .col-md-8,.home-center-text-box .col-md-4{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
     .bg-img-block {
         padding-top: 90%;
         background-size: contain;
