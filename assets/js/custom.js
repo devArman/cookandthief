@@ -17,7 +17,7 @@ $(document).ready(function(){
             var scroll = $(window).scrollTop();
             $('.menu-top-details ').toggleClass('fixed-toolbar',
                 //add 'ok' class when div position match or exceeds else remove the 'ok' class.
-                scroll >= $('.menu-center-section').offset().top - 100
+                scroll >= $('.menu-center-section').offset().top - 130
             );
 
         });
@@ -31,7 +31,7 @@ $(document).ready(function(){
     $('.price-add-btn').hover(
         function(){ $(this).addClass('btn-hover') },
         function(){ $(this).removeClass('btn-hover') }
-    )
+    );
 
     //custom collapse
     $('.collapse-head').on('click',function () {
