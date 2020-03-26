@@ -1,15 +1,38 @@
-$(window).scroll(function () {
-    var sticky = $('.page-header'),
-        scroll = $(window).scrollTop();
-
-    if (scroll >= 40) {
-        sticky.addClass('fixed');
-    } else {
-        sticky.removeClass('fixed');
-    }
-});
 
 $(document).ready(function(){
+    $(window).scroll(function () {
+        var sticky = $('.page-header'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 40) {
+            sticky.addClass('fixed');
+        } else {
+            sticky.removeClass('fixed');
+        }
+
+
+    });
+    if ($(".menu-center-section")[0]){
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
+            $('.menu-top-details ').toggleClass('fixed-toolbar',
+                //add 'ok' class when div position match or exceeds else remove the 'ok' class.
+                scroll >= $('.menu-center-section').offset().top - 100
+            );
+
+        });
+    }
+
+    //trigger the scroll
+    $(window).scroll();//ensure if you're in current position when page is refreshed
+
+   //add class and remove on hover
+
+    $('.price-add-btn').hover(
+        function(){ $(this).addClass('btn-hover') },
+        function(){ $(this).removeClass('btn-hover') }
+    )
+
     //custom collapse
     $('.collapse-head').on('click',function () {
       $(this).parents('.collapse-main-box').find('.collapse-body').slideToggle();
@@ -42,7 +65,7 @@ $(document).ready(function(){
         $('.menu-toolbar li a.active').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top - 120
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 160
         }, 1000);
         return false;
     });
@@ -179,6 +202,8 @@ $(document).ready(function(){
         });
     });
     // QTY
+
+
 });
 
 
