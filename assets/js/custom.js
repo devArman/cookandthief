@@ -88,7 +88,7 @@ $(document).ready(function(){
     } else {
         $('.scroll-down').on('click',function(){
             $('html, body').animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top - 120
+                scrollTop: $( $.attr(this, 'href') ).offset().top - 107
             }, 500);
             return false;
         });
