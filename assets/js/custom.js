@@ -10,6 +10,11 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function(){
+    //custom collapse
+    $('.collapse-head').on('click',function () {
+      $(this).parents('.collapse-main-box').find('.collapse-body').slideToggle();
+        $("i", this).toggleClass("fa-chevron-up fa-chevron-down");
+    });
 
     //fade in/out based on scrollTop value
     $(window).scroll(function () {
@@ -37,7 +42,7 @@ $(document).ready(function(){
         $('.menu-toolbar li a.active').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top - 130
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 120
         }, 1000);
         return false;
     });
