@@ -11,6 +11,27 @@ $(window).scroll(function () {
 
 $(document).ready(function(){
 
+    //fade in/out based on scrollTop value
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('#scroller').fadeIn();
+        } else {
+            $('#scroller').fadeOut();
+        }
+    });
+
+    // scroll body to 0px on click
+    $('#scroller').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    });
+
+    // tooltip
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
 
     $('.menu-toolbar li a').on('click',function(){
         $('.menu-toolbar li a.active').removeClass('active');

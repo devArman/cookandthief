@@ -216,8 +216,8 @@
                    <div class="order-box">
                        <a href="javascript:void (0)" class="place-order">PLACE ORDER <i class="fas fa-chevron-right"></i></a>
                        <div>
-                           <table class="table table-borderless">
-                               <tr class="border-row">
+                           <table class="table">
+                               <tr>
                                    <td>
                                        <div class="input-group product-qty-item align-items-center">
                                            <div class="input-group-prepend">
@@ -241,39 +241,53 @@
                                    </td>
                                </tr>
                                <tr>
-                                   <td colspan="2">
-                                       Subtotal
-                                   </td>
-                                   <td>
-                                       £18.00
+                                   <td colspan="3">
+                                       <div class="d-flex justify-content-between align-items-center">
+                                           <div> Subtotal</div>
+                                           <div> £18.00</div>
+                                       </div>
+                                       <div class="d-flex justify-content-between align-items-center">
+                                           <div> Delivery charge</div>
+                                           <div> £5.00</div>
+                                       </div>
+                                       <div class="d-flex justify-content-between align-items-center">
+                                           <div>  Minimum order surcharge <span data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text"><i class="fas fa-info-circle"></i></span></div>
+                                           <div> £7.00</div>
+                                       </div>
                                    </td>
                                </tr>
                                <tr>
-                                   <td colspan="2">
-                                       Delivery charge
-                                   </td>
-                                   <td>
-                                       £18.00
+                                   <td colspan="3">
+                                       <div class="d-flex justify-content-between align-items-center">
+                                           <div>
+                                               Rider tip
+                                           </div>
+                                           <div>
+                                               £0.00
+                                           </div>
+                                       </div>
                                    </td>
                                </tr>
                                <tr>
-                                   <td colspan="2">
-                                       Minimum order surcharge
-                                   </td>
-                                   <td>
-                                       £18.00
+                                   <td colspan="3">
+                                       <div class="d-flex justify-content-between align-items-center">
+                                           <div style="color: #dc7867;">
+                                               TOTAL
+                                           </div>
+                                           <div>
+                                               £30.00
+                                           </div>
+                                       </div>
                                    </td>
                                </tr>
                            </table>
                        </div>
+                       <a href="javascript:void (0)" class="add-message-btn">ADD A MESSAGE</a>
                    </div>
-
                 </div>
             </div>
-
         </div>
     </div>
-
 </section>
 
 
@@ -335,6 +349,7 @@
         </div>
 
     </div>
+    <span id="scroller"><i class="fas fa-chevron-up"></i></span>
 </footer>
 <script src="../assets/js/jquery-3.4.1.min.js"></script>
 <script src="../assets/js/slick.min.js"></script>
