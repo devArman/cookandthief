@@ -39,13 +39,19 @@
 }
 
 @media screen and (max-width: 767px) {
+    .menu-toolbar li a{
+        font-size: 12px;
+        padding: 15px;
+        white-space: nowrap;
 
+    }
+    .menu-toolbar ul{
+        overflow-x: scroll;
+    }
     .bg-img-block {
         padding-top: 90%;
         background-size: contain;
     }
-
-
     footer ul {
         margin-top: 15px;
     }
@@ -74,8 +80,27 @@
     .menu-center-section .menu-left-box{
         padding-right: 20px;
     }
+    #scroller{
+        right: 20px;
+        bottom: 20px;
+    }
+    .page-top-banner.menu-top-banner{
+        max-height: inherit;
+    }
 }
 @media screen and (max-width: 667px){
+    .view-details-btn span{
+        display: none!important;
+    }
+    .view-details-btn{
+        padding: 8px 11px;
+    }
+    .menu-details-text{
+        margin-left: -89px;
+    }
+    .menu-banner-column{
+        flex-direction: column;
+    }
     .header-menu li a{
         font-size: 11px;
     }
@@ -109,11 +134,21 @@
     .order-box{
         position: static;
     }
-}
-@media screen and (max-width: 570px) {
+    header .site-logo{
+        width: 60px;
+    }
+    header.page-header{
+        padding: 10px 0;
+    }
     .nav__toggle{
         top:0;
     }
+    .fixed-toolbar{
+        top: 67px;
+    }
+}
+@media screen and (max-width: 570px) {
+
     .home-center-text-box .title-text{
         font-size: 32px;
     }
@@ -144,12 +179,7 @@
     .banner-info-box .fields-box {
         padding-right: 0;
     }
-    header .site-logo{
-        width: 60px;
-    }
-    header.page-header{
-        padding: 10px 0;
-    }
+
     .footer-logo {
         text-align: center;
     }
@@ -159,6 +189,9 @@
     }
     .footer-main-menu{
         display: none;
+    }
+    .modal-footer .add-order-btn,.modal-footer .cancel-order-btn{
+        width: 100%;
     }
 }
 

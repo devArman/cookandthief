@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 
     });
+
+
     if ($(".menu-center-section")[0]){
         $(window).scroll(function (event) {
             var scroll = $(window).scrollTop();
@@ -41,7 +43,7 @@ $(document).ready(function(){
 
     //fade in/out based on scrollTop value
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 400) {
             $('#scroller').fadeIn();
         } else {
             $('#scroller').fadeOut();

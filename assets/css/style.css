@@ -46,6 +46,7 @@ header .dropdown-toggle:focus{
     color: #fff;
     border:1px solid #fff;
     border-radius: 3px;
+    z-index: 10;
 }
 .page-top-banner{
     background-color: #2c3448;
@@ -946,6 +947,9 @@ header .header-right-part .nav__link {
     letter-spacing: 2.5px;
     font-size: 14px;
     font-family: 'NexaLight';
+    position: absolute;
+    right: 0;
+    top: 15px;
 }
 .view-details-btn.close-details{
     padding: 8px 11px;
