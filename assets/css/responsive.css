@@ -95,6 +95,10 @@
     .view-details-btn{
         padding: 8px 11px;
     }
+    .view-details-btn:not(.close-details) i{
+        line-height: 19px;
+        vertical-align: bottom;
+    }
     .menu-details-text{
         margin-left: -89px;
     }
