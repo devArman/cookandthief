@@ -146,6 +146,33 @@
     .fixed-toolbar{
         top: 67px;
     }
+    .menu-details-chef-info p{
+        font-size: 11px;
+    }
+    .menu-details-chef-info h3{
+        font-size: 24px;
+    }
+    .collapse-body .product-name,#add-dish-modal .product-name{
+        font-size: 13px;
+    }
+    .collapse-body .price-add-btn,#add-dish-modal .product-price{
+        font-size: 13px;
+        min-width: 77px;
+        height: 24px;
+        letter-spacing:2.3px;
+    }
+    #add-dish-modal .product-price{
+        line-height: 18px;
+    }
+    .price-add-btn.btn-hover:after{
+        line-height: 24px;
+    }
+    .collapse-head h2,.modal-recommendation-block .block-tile{
+        font-size: 16px;
+    }
+    .menu-row {
+        padding: 5px 0;
+    }
 }
 @media screen and (max-width: 570px) {
 
@@ -195,3 +222,8 @@
     }
 }
 
+@media screen and (max-height: 700px) {
+    .order-box{
+        position: static;
+    }
+}
