@@ -600,7 +600,7 @@ footer .footer-copyright p{
     background-image: url(../images/text.svg);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     width: 93px;
     height: 10px;
     left: -3px;
