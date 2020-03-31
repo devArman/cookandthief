@@ -587,6 +587,9 @@ footer .footer-copyright p{
 .header-menu li  {
     padding-right: 20px;
 }
+.header-menu li.header-logo{
+    padding-right: 64px;
+}
 .header-menu li.active a:after{
     content: " ";
     height: 2px;
