@@ -43,8 +43,8 @@ header .dropdown-toggle:focus{
     padding: 10px 15px;
     background: #2c3448;
     cursor: pointer;
-    color: #fff;
-    border:1px solid #fff;
+    color: #f8f9f9;
+    border:1px solid #f8f9f9;
     border-radius: 3px;
     z-index: 10;
 }
@@ -1094,6 +1094,7 @@ header .header-right-part .nav__link {
     background-color: transparent;
     border: none;
     color: #fff;
+    max-width: 150px;
 }
 .product-qty-item input:focus{
     background: transparent;
