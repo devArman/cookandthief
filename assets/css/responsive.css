@@ -92,6 +92,13 @@
     }
 }
 @media screen and (max-width: 667px){
+    .menu-center-section .menu-left-box {
+        padding-right: 0;
+    }
+    .order-box-head {
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
     .order-hide-desk{
         display: block;
     }

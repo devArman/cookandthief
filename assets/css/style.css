@@ -1011,6 +1011,7 @@ header .header-right-part .nav__link {
 }
 .menu-center-section{
     padding: 50px 0;
+    background-color: #f8f9f9;
 }
 .menu-center-section .menu-left-box{
     padding-right: 50px;
@@ -1082,7 +1083,6 @@ header .header-right-part .nav__link {
     background-color: rgba(214,220,227,.1);
     border: none;
     border-radius: 50%;
-    width: 20px;
     height: 20px;
     color: #fff;
     text-align: center;
@@ -1094,6 +1094,12 @@ header .header-right-part .nav__link {
     background-color: transparent;
     border: none;
     color: #fff;
+}
+.product-qty-item input:focus{
+    background: transparent;
+    outline: none;
+    color: #fff;
+    box-shadow: none;
 }
 .collapse-head{
     padding: 20px 0;
@@ -1124,7 +1130,7 @@ header .header-right-part .nav__link {
     height: 36px;
     border: 1px solid #2c3448;
     padding: 3px;
-    background-color: #fff;
+    background-color: transparent;
     letter-spacing: 2.5px;
     font-size: 14px;
     font-family: 'NexaBold';
@@ -1324,16 +1330,17 @@ header .header-right-part .nav__link {
 }
 .close-order-box{
     position: absolute;
-    left: 10px;
+    left: 0;
     background-color: rgba(255,255,255,0.1);
     color: #fff;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    padding: 2px;
+    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
     display: none;
+    top: 1px;
 }
 .order-box-head{
     margin-top: 5px;
