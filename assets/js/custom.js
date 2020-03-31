@@ -3,11 +3,13 @@ $(document).ready(function(){
     $('.mobile-fixed-order-box button').on('click',function () {
         $('.order-hide-desk').hide();
         $(this).parents('.cart-total-box').find('.order-box').fadeIn();
+        $('body').css('overflow','hidden');
     });
 
     $('.close-order-box').on('click',function () {
         $(this).parents('.cart-total-box').find('.order-box').hide();
         $(this).parents('.cart-total-box').find('.order-hide-desk').fadeIn();
+        $('body').css('overflow','inherit');
     });
 
 

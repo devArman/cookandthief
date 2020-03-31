@@ -1085,6 +1085,7 @@ header .header-right-part .nav__link {
     width: 20px;
     height: 20px;
     color: #fff;
+    text-align: center;
 }
 .product-qty-item input{
     padding: 0;
