@@ -1,5 +1,16 @@
 
 $(document).ready(function(){
+    $('.mobile-fixed-order-box button').on('click',function () {
+        $('.order-hide-desk').hide();
+        $(this).parents('.cart-total-box').find('.order-box').fadeIn();
+    });
+
+    $('.close-order-box').on('click',function () {
+        $(this).parents('.cart-total-box').find('.order-box').hide();
+        $(this).parents('.cart-total-box').find('.order-hide-desk').fadeIn();
+    });
+
+
     $(window).scroll(function () {
         var sticky = $('.page-header'),
             scroll = $(window).scrollTop();

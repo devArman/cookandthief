@@ -1291,3 +1291,50 @@ header .header-right-part .nav__link {
     font-family: 'NexaBold';
     color: #fff;
 }
+.order-hide-desk{
+    display: none;
+}
+.mobile-fixed-order-box{
+    background-color: #41485a;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+}
+.mobile-fixed-order-box .mobile-order-price{
+    font-size: 16px;
+    letter-spacing: 2.88px;
+    color: #ffffff;
+    font-family: 'NexaBold';
+}
+.mobile-fixed-order-box button{
+    white-space: nowrap;
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 50px;
+    padding: 8px 19px;
+    color: #d6dce3;
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.close-order-box{
+    position: absolute;
+    left: 10px;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+.order-box-head{
+    margin-top: 5px;
+    padding-bottom: 15px;
+}

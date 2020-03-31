@@ -328,92 +328,102 @@
                     </div>
                 </div>
                 <div class="cart-total-box">
+                    <div class="order-hide-desk">
+                        <div class="d-flex justify-content-between align-items-center mobile-fixed-order-box">
+                            <button type="button">view order <i class="fas fa-chevron-down "></i> </button>
+                            <span class="mobile-order-price"> £30.00</span>
+                        </div>
+                    </div>
+
                    <div class="order-box">
-                       <div class="text-center mb12" style="margin-top: 5px">
-                           <img src="../assets/images/bitmap.png" alt="bitmap" >
+                       <div class="d-flex flex-column">
+                           <div class="text-center position-relative order-box-head">
+                               <span class="close-order-box"><i class="fas fa-chevron-up "></i></span>
+                               <img src="../assets/images/bitmap.png" alt="bitmap" >
+                           </div>
+                           <a href="javascript:void (0)" class="place-order">PLACE ORDER <i class="fas fa-chevron-right"></i></a>
+                           <div>
+                               <table class="table">
+                                   <tr>
+                                       <td>
+                                           Smoked Salmon, Watercress, Mustard
+                                       </td>
+                                       <td>
+                                           <div class="input-group product-qty-item align-items-center">
+                                               <div class="input-group-prepend">
+                                                   <button type="button" class="min button">
+                                                       <i class="fas fa-minus"></i>
+                                                   </button>
+                                               </div>
+                                               <input type="text" name="qty" id="qty" class="form-control"/>
+                                               <div class="input-group-append">
+                                                   <button type="button" class="plus button">
+                                                       <i class="fas fa-plus"></i>
+                                                   </button>
+                                               </div>
+                                           </div>
+                                       </td>
+
+                                       <td>
+                                           £18.00
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="3">
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <div> Subtotal</div>
+                                               <div> £18.00</div>
+                                           </div>
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <div> Delivery charge</div>
+                                               <div> £5.00</div>
+                                           </div>
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <div>  Minimum order surcharge <span data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text"><i class="fas fa-info-circle"></i></span></div>
+                                               <div> £7.00</div>
+                                           </div>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td>
+                                           Rider tip
+                                       </td>
+                                       <td>
+                                           <div class="input-group product-qty-item align-items-center justify-content-end">
+                                               <div class="input-group-prepend">
+                                                   <button type="button" class="min-btn button">
+                                                       <i class="fas fa-minus"></i>
+                                                   </button>
+                                                   &nbsp;
+                                               </div>
+                                               <div class="input-group-append">
+                                                   <button type="button" class="plus-btn button">
+                                                       <i class="fas fa-plus"></i>
+                                                   </button>
+                                               </div>
+                                           </div>
+                                       </td>
+                                       <td>
+                                           £0.00
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="3">
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <div style="color: #dc7867;">
+                                                   TOTAL
+                                               </div>
+                                               <div>
+                                                   £30.00
+                                               </div>
+                                           </div>
+                                       </td>
+                                   </tr>
+                               </table>
+                           </div>
+                           <a href="javascript:void (0)" class="add-message-btn">ADD A MESSAGE</a>
                        </div>
 
-                       <a href="javascript:void (0)" class="place-order">PLACE ORDER <i class="fas fa-chevron-right"></i></a>
-                       <div>
-                           <table class="table">
-                               <tr>
-                                   <td>
-                                       Smoked Salmon, Watercress, Mustard
-                                   </td>
-                                   <td>
-                                       <div class="input-group product-qty-item align-items-center">
-                                           <div class="input-group-prepend">
-                                               <button type="button" class="min button">
-                                                   <i class="fas fa-minus"></i>
-                                               </button>
-                                           </div>
-                                           <input type="text" name="qty" id="qty" class="form-control"/>
-                                           <div class="input-group-append">
-                                               <button type="button" class="plus button">
-                                                   <i class="fas fa-plus"></i>
-                                               </button>
-                                           </div>
-                                       </div>
-                                   </td>
-
-                                   <td>
-                                       £18.00
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td colspan="3">
-                                       <div class="d-flex justify-content-between align-items-center">
-                                           <div> Subtotal</div>
-                                           <div> £18.00</div>
-                                       </div>
-                                       <div class="d-flex justify-content-between align-items-center">
-                                           <div> Delivery charge</div>
-                                           <div> £5.00</div>
-                                       </div>
-                                       <div class="d-flex justify-content-between align-items-center">
-                                           <div>  Minimum order surcharge <span data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text"><i class="fas fa-info-circle"></i></span></div>
-                                           <div> £7.00</div>
-                                       </div>
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>
-                                       Rider tip
-                                   </td>
-                                   <td>
-                                       <div class="input-group product-qty-item align-items-center justify-content-end">
-                                           <div class="input-group-prepend">
-                                               <button type="button" class="min-btn button">
-                                                   <i class="fas fa-minus"></i>
-                                               </button>
-                                               &nbsp;
-                                           </div>
-                                           <div class="input-group-append">
-                                               <button type="button" class="plus-btn button">
-                                                   <i class="fas fa-plus"></i>
-                                               </button>
-                                           </div>
-                                       </div>
-                                   </td>
-                                   <td>
-                                       £0.00
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td colspan="3">
-                                       <div class="d-flex justify-content-between align-items-center">
-                                           <div style="color: #dc7867;">
-                                               TOTAL
-                                           </div>
-                                           <div>
-                                               £30.00
-                                           </div>
-                                       </div>
-                                   </td>
-                               </tr>
-                           </table>
-                       </div>
-                       <a href="javascript:void (0)" class="add-message-btn">ADD A MESSAGE</a>
                    </div>
                 </div>
             </div>
