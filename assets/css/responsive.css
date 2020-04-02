@@ -170,6 +170,7 @@
         order: 2;
     }
     .cart-total-box .order-box{
+        bottom: -100%;
         left: 0;
         right: 0;
         max-height: 100%;
@@ -177,7 +178,7 @@
         border-radius: 20px 20px 0 0;
         position: fixed;
         width: inherit;
-        opacity: 0;
+        /*visibility: hidden;*/
         -webkit-transform: translate(0,100%);
         -moz-transform: translate(0,100%);
         -ms-transform: translate(0,100%);
@@ -185,17 +186,20 @@
         transform: translate(0,100%);
         -webkit-transition-delay: 0s,.3s,.3s;
         transition-delay: 0s,.3s,.3s;
-        transition: 0.5s cubic-bezier(.4,0,1,1);
-        -webkit-transition: 0.5s cubic-bezier(.4,0,1,1);
+        -webkit-transition-timing-function: cubic-bezier(.4,0,1,1);
+        transition-timing-function: cubic-bezier(.4,0,1,1);
+        -webkit-transition-duration: .3s,0s,0s;
+        transition-duration: .3s,0s,0s;
     }
    .cart-total-box .order-box.order-box-cl{
        z-index: 20;
-       opacity: 1;
        top: 73px;
        -webkit-transition-delay: 0s,0s,0s;
        transition-delay: 0s,0s,0s;
-       transition: 0.5s cubic-bezier(.4,0,1,1);
-       -webkit-transition: 0.5s cubic-bezier(.4,0,1,1);
+       -webkit-transition-timing-function: cubic-bezier(0,0,.2,1);
+       transition-timing-function: cubic-bezier(0,0,.2,1);
+       -webkit-transition-duration: .3s,0s,0s;
+       transition-duration: .3s,0s,0s;
        -webkit-transform: translate(0,0);
        -moz-transform: translate(0,0);
        -ms-transform: translate(0,0);
