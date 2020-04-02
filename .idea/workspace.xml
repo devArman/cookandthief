@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-    </list>
+    <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,21 +92,7 @@
       <workItem from="1585640012822" duration="18579000" />
       <workItem from="1585731107161" duration="731000" />
       <workItem from="1585765846689" duration="74000" />
-      <workItem from="1585810710283" duration="16755000" />
-    </task>
-    <task id="LOCAL-00025" summary="changes">
-      <created>1585039682476</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1585039682476</updated>
-    </task>
-    <task id="LOCAL-00026" summary="changes">
-      <created>1585040094057</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1585040094057</updated>
+      <workItem from="1585810710283" duration="17033000" />
     </task>
     <task id="LOCAL-00027" summary="changes">
       <created>1585040201570</created>
@@ -440,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585828296562</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="fixings">
+      <created>1585828677835</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1585828677835</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fixings">
+      <created>1585828870658</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1585828870658</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,10 +457,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixings" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585828677116">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585828869930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585828677116" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585828869930" />
     <state x="147" y="71" key="DiffContextDialog" timestamp="1585815562437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -476,10 +473,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="607" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585405581877" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585828685109">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585828878371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585828685109" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585828878371" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585765904191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

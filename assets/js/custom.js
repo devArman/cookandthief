@@ -4,12 +4,14 @@ $(document).ready(function(){
         $('.order-hide-desk').hide();
         $(this).parents('.cart-total-box').find('.order-box').addClass('order-box-cl');
         $('body').css('overflow','hidden');
+        $('#scroller').hide();
     });
 
     $('.close-order-box').on('click',function () {
         $(this).parents('.cart-total-box').find('.order-box').removeClass('order-box-cl');
         $(this).parents('.cart-total-box').find('.order-hide-desk').fadeIn();
         $('body').css('overflow','inherit');
+        $('#scroller').hide();
     });
 
 
