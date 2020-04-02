@@ -1146,6 +1146,7 @@ header .header-right-part .nav__link {
     text-transform: uppercase;
     color: #2c3448;
     cursor: pointer;
+    line-height: 20px;
 }
 .collapse-body .product-name:hover{
     text-decoration: underline;

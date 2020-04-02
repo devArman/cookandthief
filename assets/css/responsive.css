@@ -240,6 +240,7 @@
         min-width: 77px;
         letter-spacing:2.3px;
         padding: 2px 3px;
+        line-height: 20px;
     }
     #add-dish-modal .product-price{
         line-height: 18px;
