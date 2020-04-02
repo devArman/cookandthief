@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +96,7 @@
       <workItem from="1585640012822" duration="18579000" />
       <workItem from="1585731107161" duration="731000" />
       <workItem from="1585765846689" duration="74000" />
-      <workItem from="1585810710283" duration="2259000" />
-    </task>
-    <task id="LOCAL-00012" summary="changes">
-      <created>1584979913005</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1584979913005</updated>
+      <workItem from="1585810710283" duration="4620000" />
     </task>
     <task id="LOCAL-00013" summary="changes">
       <created>1584984828069</created>
@@ -441,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585812314524</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fixings">
+      <created>1585812983320</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1585812983320</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,10 +461,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixings" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585812311232">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585812981742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585812311232" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585812981742" />
     <state x="147" y="71" key="DiffContextDialog" timestamp="1585667484775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -477,10 +477,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="607" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585405581877" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585812321425">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585812990297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585812321425" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585812990297" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585765904191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

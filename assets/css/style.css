@@ -1080,7 +1080,9 @@ header .header-right-part .nav__link {
     padding: 20px 10px;
     border-top: none;
     font-size: 14px;
-    border-bottom: 1px solid rgba(247,249,250,.2);
+    border-bottom: 1px solid #8d8d8d;
+    font-family: geneo-std, sans-serif;
+    line-height: 1.7;
 }
 .order-box  tr:last-child td{
     border-bottom: 0;
