@@ -1153,9 +1153,8 @@ header .header-right-part .nav__link {
 .collapse-body .price-add-btn {
     border-radius: 18px;
     min-width: 96px;
-    height: 36px;
+    padding: 7px 3px;
     border: 1px solid #2c3448;
-    padding: 3px;
     background-color: transparent;
     letter-spacing: 2.5px;
     font-size: 14px;

@@ -219,14 +219,14 @@
     .collapse-body .price-add-btn,#add-dish-modal .product-price{
         font-size: 13px;
         min-width: 77px;
-        height: 24px;
         letter-spacing:2.3px;
+        padding: 2px 3px;
     }
     #add-dish-modal .product-price{
         line-height: 18px;
     }
-    .price-add-btn.btn-hover:after{
-        line-height: 24px;
+    .price-add-btn.btn-hover:after,#add-dish-modal .product-price.btn-hover:after{
+        line-height: 25px;
     }
     .collapse-head h2,.modal-recommendation-block .block-tile{
         font-size: 16px;
