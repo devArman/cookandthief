@@ -242,11 +242,14 @@
         padding: 2px 3px;
         line-height: 20px;
     }
-    #add-dish-modal .product-price{
-        line-height: 18px;
+    /*#add-dish-modal .product-price{*/
+    /*    line-height: 18px;*/
+    /*}*/
+    .price-add-btn.btn-hover:after{
+        line-height: 28px;
     }
-    .price-add-btn.btn-hover:after,#add-dish-modal .product-price.btn-hover:after{
-        line-height: 25px;
+    #add-dish-modal .product-price.btn-hover:after{
+        line-height: 26px;
     }
     .collapse-head h2,.modal-recommendation-block .block-tile{
         font-size: 16px;
