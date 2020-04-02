@@ -43,7 +43,7 @@ $(document).ready(function(){
 
    //add class and remove on hover
 
-    $('.price-add-btn').hover(
+    $('.price-add-btn,button.product-price').hover(
         function(){ $(this).addClass('btn-hover') },
         function(){ $(this).removeClass('btn-hover') }
     );
