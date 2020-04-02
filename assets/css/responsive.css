@@ -169,18 +169,33 @@
     .menu-center-info .menu-left-box{
         order: 2;
     }
-   .cart-total-box .order-box{
-        position: fixed;
-        top: 73px;
+    .cart-total-box .order-box{
+        bottom: 0;
         left: 0;
         right: 0;
-        bottom: 0;
-        width: inherit;
-        z-index: 20;
-        display: none;
+        -webkit-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+        -moz-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+        -ms-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+        -o-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+        transition:  .5s all cubic-bezier(0, 1, 0.5, 1);
         max-height: 100%;
         overflow-y: auto;
         border-radius: 20px 20px 0 0;
+        position: fixed;
+        width: inherit;
+        min-height: inherit;
+        opacity: 0;
+        z-index: -5;
+    }
+   .cart-total-box .order-box.order-box-cl{
+       z-index: 20;
+       opacity: 1;
+       top: 73px;
+       -webkit-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+       -moz-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+       -ms-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+       -o-transition: .5s all cubic-bezier(0, 1, 0.5, 1);
+        transition:  .5s all cubic-bezier(0, 1, 0.5, 1);
     }
     .cart-total-box .order-box .place-order{
         order: 2;
